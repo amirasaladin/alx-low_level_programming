@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
- * Description of the function main
+/**
+ * main - Entry point
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

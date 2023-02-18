@@ -12,7 +12,7 @@ int main(void)
 {
 	char alpha = 'a';
 	
-	while (getchar(alpha) != EOF)
+	while (alpha != 'z')
 	{
 		putchar(alpha);
 		alpha++;

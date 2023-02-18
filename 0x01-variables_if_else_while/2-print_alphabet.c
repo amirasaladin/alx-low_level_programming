@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <limits.h>
 /* more headers goes there */
 
 /**
@@ -11,9 +12,8 @@
 int main(void)
 {
 	char alpha = 'a';
-	char end = "z\n";
 	
-	while (alpha != 'z')
+	while (alpha != CHAR_MAX)
 	{
 		putchar(alpha);
 		alpha++;

@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	char alpha = 'a';
+	char alpha = CHAR_MIN;
 	while (alpha != CHAR_MAX)
 	{
 		putchar(alpha);

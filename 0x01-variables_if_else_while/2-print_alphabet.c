@@ -11,11 +11,13 @@
  */
 int main(void)
 {
-	char alpha = CHAR_MIN;
+	char alpha = 'a';
+	char z = 'z';
 	while (alpha != CHAR_MAX)
 	{
 		putchar(alpha);
 		alpha++;
 	}
+	putchar(z);
 	return (0);
 }

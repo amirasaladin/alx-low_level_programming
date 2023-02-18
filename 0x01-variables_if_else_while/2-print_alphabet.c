@@ -12,12 +12,13 @@
 int main(void)
 {
 	char alpha = 'a';
+	char z = CHAR_MAX;
 	
-	while (alpha != CHAR_MAX)
+	while (alpha != z)
 	{
 		putchar(alpha);
 		alpha++;
 	}
-	putchar(end);
+	putchar(z);
 	return (0);
 }

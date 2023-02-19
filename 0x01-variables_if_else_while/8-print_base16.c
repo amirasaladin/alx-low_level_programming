@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include <limits.h>
 /* more headers goes there */
 
 /**
@@ -11,8 +8,14 @@
  */
 int main(void)
 {
-	char alpha = '0';
+	char num = '0';
+	char alpha = 'a';
 
+	while (num <= '9')
+	{
+		putchar(num);
+		num++;
+	}
 	while (alpha <= 'f')
 	{
 		putchar(alpha);

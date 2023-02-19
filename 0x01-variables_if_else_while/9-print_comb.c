@@ -9,16 +9,16 @@
 int main(void)
 {
 	int n = 0;
-	int numchar = 48;
+	int num = 48;
 	while (n < 10)
 	{
-		putchar(numchar);
+		putchar(num);
 		if (n != 9)
 		{
 			putchar(',');
 		}
 		n++;
-		numchar++;
+		num++;
 	}
 	putchar('\n');
 	return (0);

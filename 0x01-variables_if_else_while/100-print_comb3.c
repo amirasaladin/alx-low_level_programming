@@ -19,10 +19,13 @@ int main(void)
 		{
 			putchar(num);
 			putchar(num2);
-			putchar(',');
-			putchar(' ');
-			n2++;
-			num2++;
+			if (num2 != 9)
+			{
+				putchar(',');
+				putchar(' ');
+				n2++;
+				num2++;
+			}
 		}
 		n++;
 		num++;

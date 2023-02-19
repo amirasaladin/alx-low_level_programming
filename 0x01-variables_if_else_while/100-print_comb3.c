@@ -15,13 +15,14 @@ int main(void)
 
 	while (n < 10)
 	{
-		n2;
-		putchar(num);
-		while (n < 10)
+		while (n2 <= n2)
 		{
+			putchar(num);
 			putchar(num2);
 			putchar(',');
 			putchar(' ');
+			n2++;
+			num2++;
 		}
 		n++;
 		num++;

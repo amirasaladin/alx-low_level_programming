@@ -9,15 +9,16 @@
 int main(void)
 {
 	int n = 0;
-
+	int numchar = '0';
 	while (n < 10)
 	{
-		putchar(n);
+		putchar(numchar);
 		if (n != 9)
 		{
 			putchar(',');
 		}
 		n++;
+		numchar++;
 	}
 	putchar('\n');
 	return (0);

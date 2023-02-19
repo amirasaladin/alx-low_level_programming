@@ -15,7 +15,7 @@ int main(void)
 
 	while (n < 10)
 	{
-		n2
+		n2;
 		putchar(num);
 		while (n < 10)
 		{

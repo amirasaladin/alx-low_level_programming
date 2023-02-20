@@ -35,8 +35,8 @@ int main(void)
 					num3++;
 					n3++;
 				}
-				num3 = num2;
-				n3 = n2;
+				num3 = num;
+				n3 = n;
 				n2++;
 				num2++;
 			}

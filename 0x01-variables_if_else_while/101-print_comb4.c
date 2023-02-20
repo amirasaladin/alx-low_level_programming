@@ -32,8 +32,6 @@ int main(void)
 				n3++;
 				num3++;
 			}
-			n2++;
-			num2++;
 		}
 		n++;
 		num++;

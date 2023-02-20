@@ -19,11 +19,8 @@ int main(void)
 		{
 			putchar(num);
 			putchar(num2);
-			if (num != 7)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 			n2++;
 			num2++;
 		}

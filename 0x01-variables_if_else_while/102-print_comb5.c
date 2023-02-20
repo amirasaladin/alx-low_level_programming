@@ -23,10 +23,12 @@ putchar(onec);
 putchar(',');
 putchar(' ');
 one++;
+oncec++;
 }
 one = zero;
 onec = zeroc;
 zero++;
+zeroc++;
 }
 return (0);
 }

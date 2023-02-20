@@ -34,13 +34,13 @@ int main(void)
 					num3++;
 					n3++;
 				}
-				num3 = num2 + 1;
-				n3 = n2 + 1;
+				num3 = num2;
+				n3 = n2;
 				n2++;
 				num2++;
 			}
-			num2 = num1 + 1;
-			n2 = n1 + 1;
+			num2 = num1;
+			n2 = n1;
 			n1++;
 			num1++;
 		}

@@ -13,13 +13,13 @@ int main(void)
 	int num = 48;
 	int num2 = 49;
 
-	while (n < 101)
+	while (n < 10)
 	{
 		while (n2 < 10)
 		{
 			putchar(num);
 			putchar(num2);
-			if (num != 8) 
+			if (n != 8) 
 			{
 				putchar(',');
 				putchar(' ');

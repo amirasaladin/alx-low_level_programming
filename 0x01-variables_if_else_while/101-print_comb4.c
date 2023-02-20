@@ -38,6 +38,8 @@ int main(void)
 		num++;
 		n2 = n + 1;
 		num2 = num + 1;
+		n3 = n2 + 1;
+		num3 = num2 + 1;
 	}
 	putchar('\n');
 	return (0);

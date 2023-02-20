@@ -31,6 +31,7 @@ int main(void)
 					putchar(num2);
 					putchar(num3);
 					putchar(',');
+					putchar(' ');
 					num3++;
 					n3++;
 				}

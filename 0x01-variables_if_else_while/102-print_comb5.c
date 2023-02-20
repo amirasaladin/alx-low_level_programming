@@ -27,5 +27,5 @@ putchar(' ');
 one = zero;
 onec = zeroc;
 }
-
+return (0);
 }

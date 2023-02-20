@@ -13,7 +13,7 @@ int main(void)
 	int num = 48;
 	int num2 = 49;
 
-	while (n < 10)
+	while (n < 101)
 	{
 		while (n2 < 10)
 		{

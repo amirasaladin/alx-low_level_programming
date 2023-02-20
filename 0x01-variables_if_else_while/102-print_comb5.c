@@ -8,45 +8,24 @@
  */
 int main(void)
 {
-	int n = 0;
-	int n1 = 0;
-	int n2 = 0;
-	int n3 = 1;
-	int num = 48;
-	int num1 = 48;
-	int num2 = 48;
-	int num3 = 49;
-	
-	while (n < 10)
-	{
-		while (n1 < 10)
-		{
-			while (n2 < 10)
-			{
-				while (n3 < 10)
-				{
-					putchar(num);
-					putchar(num1);
-					putchar(' ');
-					putchar(num2);
-					putchar(num3);
-					putchar(',');
-					putchar(' ');
-					num3++;
-					n3++;
-				}
-				num3 = num;
-				n3 = n;
-				n2++;
-				num2++;
-			}
-			num2 = num + 1;
-			n2 = n + 1;
-			n1++;
-			num1++;
-		}
-		n++;
-		num++;
-	}
-	return (0);
+	int zero = 0;
+	int one = 1;
+	int zeroc = 48;
+	int onec = 49;
+while (zero < 10) {
+while (one < 10)
+{
+putchar(zeroc);
+putchar(zeroc);
+putchar(' ');
+putchar(zeroc);
+putchar(onec);
+putchar(',');
+putchar(' ');
+
+}
+one = zero;
+onec = zeroc;
+}
+
 }

@@ -40,8 +40,8 @@ int main(void)
 				n2++;
 				num2++;
 			}
-			num2 = num1;
-			n2 = n1;
+			num2 = num;
+			n2 = n;
 			n1++;
 			num1++;
 		}

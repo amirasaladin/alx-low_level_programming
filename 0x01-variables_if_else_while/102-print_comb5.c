@@ -23,7 +23,7 @@ putchar(onec);
 putchar(',');
 putchar(' ');
 one++;
-oncec++;
+onec++;
 }
 one = zero;
 onec = zeroc;

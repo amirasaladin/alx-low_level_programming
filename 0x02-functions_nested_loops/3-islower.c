@@ -5,7 +5,7 @@
  *
  * Return: 1 on success, 0 on failure
  *
- * c : is of type int
+ * @c: The character to print
 */
 
 int _islower(int c)

@@ -5,9 +5,11 @@
  * Return: Always 0 (Success)
 */
 
-void name (void)
+int _islower(int c)
 {
-	_putchar();
-	return;
+	if(islower(c))
+		return (1);
+	else
+		return (0);
 
 }

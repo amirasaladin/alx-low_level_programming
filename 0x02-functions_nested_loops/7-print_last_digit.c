@@ -7,7 +7,7 @@
  * @n: digit
  * Return: Always 0 (Success)
  */
-void print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int last_digit;
 
@@ -15,5 +15,5 @@ void print_last_digit(int n)
 	_putchar(last_digit + 48);
 	_putchar(last_digit + 48);
 	_putchar('\n');
-	return;
+	return ('0');
 }

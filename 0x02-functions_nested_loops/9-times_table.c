@@ -10,17 +10,16 @@ void times_table(void)
 	int x = 0;
 	int y = 0;
 	int fdigit, ldigit, mult;
-	printf("%d", (x * y));
-	while (x == 0)
+
+	while (x < 10)
 	{
-		while (y == 0)
+		while (y < 10)
 		{
 			mult = x * y;
 			fdigit = mult * 0.1;
 			ldigit = mult % 10;
 			_putchar(fdigit + '0');
 			_putchar(ldigit + '0');
-			_putchar('0');
 			_putchar(',');
 			_putchar(' ');
 			y++;

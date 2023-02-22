@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * name - Check code
- * @n - integer
+ * jack_bauer - Check code
+ * 
  * Return: the return value data
 */
 
@@ -14,19 +14,11 @@ void jack_bauer(void)
 	{
 		while (min < 60)
 		{
-			if (hr < 10)
-			{
-				_putchar('0');
-			}
 			fdigit = hr * 0.1;
 			ldigit = hr % 10;
 			_putchar(fdigit + '0');
 			_putchar(ldigit + '0');
 			_putchar(':');
-			if (min < 10)
-			{
-				_putchar('0');
-			}
 			fdigit = min * 0.1;
 			ldigit = min % 10;
 			_putchar(fdigit + '0');

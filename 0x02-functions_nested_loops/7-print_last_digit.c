@@ -17,11 +17,5 @@ int print_last_digit(int n)
 
 	last_digit = n % 10;
 
-	while (count < 2)
-	{
-		twice += _putchar(last_digit);
-		count++;
-	}
-
-	return (twice);
+	return (strcat(last_digit, last_digit));
 }

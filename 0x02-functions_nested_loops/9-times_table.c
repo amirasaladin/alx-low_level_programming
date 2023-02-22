@@ -9,9 +9,9 @@ void times_table(void)
 	int x, y = 0;
 	int fdigit, ldigit, mult;
 
-	while (x < 10)
+	while (x == 0)
 	{
-		while (y < 10)
+		while (y == 0)
 		{
 			mult = x * y;
 			fdigit = mult * 0.1;

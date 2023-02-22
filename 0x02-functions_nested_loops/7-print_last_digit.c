@@ -13,6 +13,6 @@ int print_last_digit(int n)
 	int calc;
 
 	last_digit = n % 10;
-	calc = last_digit + (last_digit * 10);
-	return (printf("%d\n", calc));
+	_putchar(last_digit + '0');
+	return (last_digit);
 }

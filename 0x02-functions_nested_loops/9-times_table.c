@@ -7,7 +7,8 @@
 
 void times_table(void)
 {
-	int x, y = 0;
+	int x = 0;
+	int y = 0;
 	int fdigit, ldigit, mult;
 	printf("%d", (x * y));
 	while (x == 0)

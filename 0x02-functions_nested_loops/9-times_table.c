@@ -23,8 +23,11 @@ void times_table(void)
 			else
 				_putchar(' ');
 			_putchar(ldigit + '0');
+			if (y != 9)
+			{
 			_putchar(',');
 			_putchar(' ');
+			}
 			y++;
 		}
 		_putchar('\n');

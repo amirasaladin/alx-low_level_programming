@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 #include "main.h"
 /* more headers goes there */
@@ -17,5 +15,5 @@ int print_last_digit(int n)
 	last_digit = n % 10;
 	twice = last_digit * 10 + last_digit;
 
-	return (twice);
+	return (printf("%d%d\n", last_digit, last_digit));
 }

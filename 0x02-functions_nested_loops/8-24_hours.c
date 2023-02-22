@@ -9,6 +9,7 @@ void jack_bauer(void)
 {
 	int hr = 0;
 	int min = 0;
+	int fdigit ldigit;
 
 	while (hr < 24)
 	{
@@ -18,13 +19,19 @@ void jack_bauer(void)
 			{
 				_putchar('0');
 			}
-			_putchar(hr + '0');
+			fdigit = hr * 0.1;
+			ldigit = hr % 10;
+			_putchar(fdigit + '0');
+			_putchar(ldigit + '0');
 			_putchar(':');
 			if (min < 10)
 			{
 				_putchar('0');
 			}
-			_putchar(min + '0');
+			fdigit = min * 0.1;
+			ldigit = min % 10;
+			_putchar(fdigit + '0');
+			_putchar(ldigit + '0');
 			_putchar('\n');
 			min++;
 		}

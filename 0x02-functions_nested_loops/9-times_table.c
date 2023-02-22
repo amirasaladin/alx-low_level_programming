@@ -18,6 +18,7 @@ void times_table(void)
 			ldigit = mult % 10;
 			_putchar(fdigit + '0');
 			_putchar(ldigit + '0');
+			_putchar('0');
 			_putchar(',');
 			_putchar(' ');
 			y++;

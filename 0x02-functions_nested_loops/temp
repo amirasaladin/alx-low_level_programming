@@ -5,7 +5,7 @@
  * Return: the return value data
 */
 
-int name (int)
+int name(int)
 {
 	_putchar();
 	return;

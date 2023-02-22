@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * name - Check code
- * @n - integer
+ * add - Check code
+ * @a - integer
+ * @b - integer
  * Return: the return value data
 */
 
-int add(int a, intb)
+int add(int a, int b)
 {
 	return (a + b);
 }

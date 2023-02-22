@@ -20,6 +20,7 @@ int print_last_digit(int n)
 	while (count < 2)
 	{
 		twice += _putchar(last_digit);
+		count++;
 	}
 
 	return (twice);

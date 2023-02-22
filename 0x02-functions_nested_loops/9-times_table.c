@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table - Check code
  * Return: the return value data

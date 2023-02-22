@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - Check code
- * 
  * Return: the return value data
 */
 

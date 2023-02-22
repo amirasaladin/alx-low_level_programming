@@ -12,8 +12,5 @@ int print_last_digit(int n)
 	int last_digit;
 
 	last_digit = n % 10;
-	_putchar(last_digit + 48);
-	_putchar(last_digit + 48);
-	_putchar('\n');
-	return ('0');
+	return (printf("%d%d\n", last_digit + 48, last_digit + 48));
 }

@@ -1,6 +1,7 @@
 #include "main.h"
+#include "_putchar.c"
 /**
- * jack_bauer - Check code
+ * times_table - Check code
  * Return: the return value data
 */
 
@@ -21,6 +22,7 @@ void times_table(void)
 				_putchar(fdigit + '0');
 			}
 			_putchar(ldigit + '0');
+			_putchar(',');
 			_putchar(' ');
 			y++;
 		}

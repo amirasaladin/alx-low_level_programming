@@ -19,9 +19,9 @@ void times_table(void)
 			fdigit = mult * 0.1;
 			ldigit = mult % 10;
 			if (fdigit != 0)
-			{
 				_putchar(fdigit + '0');
-			}
+			else
+				_putchar(' ');
 			_putchar(ldigit + '0');
 			_putchar(',');
 			_putchar(' ');

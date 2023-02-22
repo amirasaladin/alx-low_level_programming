@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * name - Check code
+ * @n - integer
+ * Return: the return value data
 */
 
-void name (void)
+int name (int)
 {
 	_putchar();
 	return;

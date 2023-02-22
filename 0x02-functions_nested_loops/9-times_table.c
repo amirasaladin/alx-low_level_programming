@@ -20,7 +20,7 @@ void times_table(void)
 			ldigit = mult % 10;
 			if (fdigit != 0)
 				_putchar(fdigit + '0');
-			else
+			if(fdigit == 0 && y != 0)
 				_putchar(' ');
 			_putchar(ldigit + '0');
 			if (y != 9)

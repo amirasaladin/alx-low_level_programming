@@ -3,7 +3,7 @@
 /**
  * _abs - Check code
  *
- * @n - int type argument - integer
+ * @n: - int type argument
  *
  * Return: the return value data
 */

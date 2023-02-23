@@ -2,8 +2,7 @@
 /**
  * main - Entry point
  *
- *
- * main - Entry point
+ * natural - check code
  *
  * Return: the return value data
 */

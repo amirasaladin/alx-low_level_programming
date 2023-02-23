@@ -7,7 +7,8 @@
 
 void fib(void)
 {
-	int x, y, n, count;
+	int count;
+	long int x, y, n;
 
 	count = 0;
 	x = 1;
@@ -17,12 +18,12 @@ void fib(void)
 	{
 		if (x == 1)
 		{
-			printf("%d, %d ", x, y);
+			printf("%d, %d, ", x, y);
 		}
 		if (count != 48)
-			printf("%d,", n);
+			printf("%ld, ", n);
 		else
-			printf("%d\n", n);
+			printf("%ld\n", n);
 		x = y;
 		y = n;
 		n = x + y;

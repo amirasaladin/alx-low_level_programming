@@ -2,10 +2,14 @@
 /**
  * main - Entry point
  *
- * natural - check code
- *
- * Return: the return value data
+ * Return: the return value
 */
+
+/**
+ * natural - Check the code
+ * 
+ * Return: the return value
+ */
 
 void natural(void)
 {

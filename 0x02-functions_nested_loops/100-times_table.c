@@ -30,11 +30,8 @@ void print_times_table(int n)
 				_putchar(' ');
 			}
 			_putchar(ldigit + '0');
-			if (y != 9)
-			{
-			_putchar(',');
-			_putchar(' ');
-			}
+			if (y != n)
+				_putchar(',');
 			y++;
 		}
 		_putchar('\n');

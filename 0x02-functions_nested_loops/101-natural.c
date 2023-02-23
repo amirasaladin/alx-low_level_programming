@@ -5,15 +5,18 @@
  * Return: the return value data
 */
 
-int natural(void)
+int main()
 {
-	int n = 0;
-	int count = 0;
-	while (count < 1024)
+	int natural(void)
 	{
-		if ((count % 3 == 0) || (count % 5 == 0))
-			n += count;
-		count++;
-	}
-	return (n);
+		int n = 0;
+		int count = 0;
+		while (count < 1024)
+		{	
+			if ((count % 3 == 0) || (count % 5 == 0))
+				n += count;
+			count++;
+		}
+		return (n);
+	}	
 }

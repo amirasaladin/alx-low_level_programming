@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - Check code
+ * print_times_table - Check code
+ *
+ * @n: int
+ *
  * Return: the return value data
 */
 
@@ -36,5 +39,4 @@ void print_times_table(int n)
 		y = 0;
 		x++;
 	}
-	return;
 }

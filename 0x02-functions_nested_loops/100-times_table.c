@@ -11,7 +11,7 @@ void print_times_table(int n)
 	int y = 0;
 	int fdigit, ldigit, mult;
 
-	while (x <= n && 0 < n < 15)
+	while (x <= n && n < 0 && n > 15)
 	{
 		while (y <= n)
 		{

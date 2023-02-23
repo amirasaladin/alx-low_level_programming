@@ -18,5 +18,6 @@ int main()
 			count++;
 		}
 		return (n);
-	}	
+	}
+	natural();
 }

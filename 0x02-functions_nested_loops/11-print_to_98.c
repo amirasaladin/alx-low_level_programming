@@ -13,8 +13,10 @@ void print_to_98(int n)
 	while (n != 98)
 	{
 		if (n < 0)
+		{
 			n = abs(n);
 			_putchar('-');
+		}
 		fdigit = n * 0.1;
 		ldigit = n % 10;
 		if (fdigit != 0)

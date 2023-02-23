@@ -1,11 +1,12 @@
 #include "main.h"
+#include "_putchar.c"
 /**
  * name - Check code
  * @n - integer
  * Return: the return value data
 */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int fdigit, ldigit;
 
@@ -22,5 +23,5 @@ int print_to_98(int n)
 		_putchar(' ');
 		n++;
 	}
-	return (98);
+	return;
 }

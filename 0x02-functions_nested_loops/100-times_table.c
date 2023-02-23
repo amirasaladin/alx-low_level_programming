@@ -5,7 +5,7 @@
  * Return: the return value data
 */
 
-void times_table(int n)
+void print_times_table(int n)
 {
 	int x = 0;
 	int y = 0;

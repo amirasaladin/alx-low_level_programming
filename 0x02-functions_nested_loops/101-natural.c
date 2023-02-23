@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * natural - Check code
+ * main - Entry point
+ *
  *
  * main - Entry point
  *
@@ -13,7 +14,7 @@ void natural(void)
 	int count = 0;
 
 	while (count < 1024)
-	{	
+	{
 		if ((count % 3 == 0) || (count % 5 == 0))
 			n += count;
 		count++;

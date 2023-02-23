@@ -20,4 +20,5 @@ int main()
 		printf("%d", n);
 	}
 	natural();
+	return (0);
 }

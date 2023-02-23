@@ -7,7 +7,7 @@
 
 int main()
 {
-	int natural(void)
+	void natural(void)
 	{
 		int n = 0;
 		int count = 0;
@@ -17,7 +17,7 @@ int main()
 				n += count;
 			count++;
 		}
-		return (n);
+		printf("%d", n);
 	}
 	natural();
 }

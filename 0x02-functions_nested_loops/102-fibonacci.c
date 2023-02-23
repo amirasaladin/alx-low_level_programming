@@ -8,18 +8,20 @@
 void fib(void)
 {
 	int x, y, n, count;
+
 	count = 0;
 	x = 1;
 	y = 2;
+	n = x + y;
 	while (count < 51)
 	{
-		n = x + y;
 		if (count != 50)
 			printf("%d,", n);
 		else
 			printf("%d\n", n);
 		x = y;
 		y = n;
+		n = x + y;
 		count++;
 	}
 }

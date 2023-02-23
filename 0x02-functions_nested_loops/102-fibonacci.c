@@ -14,13 +14,13 @@ void fib(void)
 	x = 1;
 	y = 2;
 	n = x + y;
-	while (count < 49)
+	while (count < 48)
 	{
 		if (x == 1)
 		{
 			printf("%ld, %ld, ", x, y);
 		}
-		if (count != 48)
+		if (count != 47)
 			printf("%ld, ", n);
 		else
 			printf("%ld\n", n);

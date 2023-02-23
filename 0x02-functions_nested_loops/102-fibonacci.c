@@ -18,7 +18,7 @@ void fib(void)
 	{
 		if (x == 1)
 		{
-			printf("%d, %d, ", x, y);
+			printf("%ld, %ld, ", x, y);
 		}
 		if (count != 48)
 			printf("%ld, ", n);

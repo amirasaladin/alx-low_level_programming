@@ -22,6 +22,8 @@ void print_times_table(int n)
 				_putchar(fdigit + '0');
 			if (fdigit == 0 && y != 0)
 				_putchar(' ');
+				_putchar(' ');
+				_putchar(' ');
 			_putchar(ldigit + '0');
 			if (y != 9)
 			{

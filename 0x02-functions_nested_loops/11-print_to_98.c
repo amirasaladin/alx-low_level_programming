@@ -13,10 +13,7 @@ void print_to_98(int n)
 	{
 		fdigit = n * 0.1;
 		ldigit = n % 10;
-		if (fdigit != 0)
-		{
-			_putchar(fdigit + '0');
-		}
+		_putchar(fdigit + '0');
 		_putchar(ldigit + '0');
 		if(n != 98)
 		{

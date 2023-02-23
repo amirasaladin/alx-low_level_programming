@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_to_98 - Check code
  * @n: integer
@@ -11,6 +12,9 @@ void print_to_98(int n)
 
 	while (n != 98)
 	{
+		if (n < 0)
+			n = abs(n);
+			_putchar('-');
 		fdigit = n * 0.1;
 		ldigit = n % 10;
 		if (fdigit != 0)
@@ -26,5 +30,8 @@ void print_to_98(int n)
 		else
 			n--;
 	}
+	_putchar('9');
+	_putchar('8');
+	_putchar('\n');
 	return;
 }

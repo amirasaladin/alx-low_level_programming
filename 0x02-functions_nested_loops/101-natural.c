@@ -11,7 +11,7 @@ int natural(void)
 	int count = 0;
 	while (count < 1024)
 	{
-		if ((count % 3 == 0) or (count % 5 == 0))
+		if ((count % 3 == 0) || (count % 5 == 0))
 			n += count;
 		count++;
 	}

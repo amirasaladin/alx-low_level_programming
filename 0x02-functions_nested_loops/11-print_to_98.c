@@ -9,18 +9,22 @@ void print_to_98(int n)
 {
 	int fdigit, ldigit;
 
-	while (n <= 98)
+	while (n != 98)
 	{
 		fdigit = n * 0.1;
 		ldigit = n % 10;
-		_putchar(fdigit + '0');
+		if (fdigit != 0)
+			_putchar(fdigit + '0');
 		_putchar(ldigit + '0');
 		if(n != 98)
 		{
 			_putchar(',');
 			_putchar(' ');
 		}
-		n++;
+		if (n < 98)
+			n++;
+		else
+			n--;
 	}
 	return;
 }

@@ -1,11 +1,5 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: the return value
-*/
-
-/**
  * natural - Check the code
  * 
  * Return: the return value
@@ -24,6 +18,12 @@ void natural(void)
 	}
 	printf("%d\n", n);
 }
+
+/**
+ * main - Entry point
+ * 
+ * Return: return
+ */
 
 int main(void)
 {

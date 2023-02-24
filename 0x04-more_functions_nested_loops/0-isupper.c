@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - Checks if the character argument is a lowercase letter
+ * _isupper - Checks if the character argument is a lowercase letter
  *
  * Return: 1 on success, 0 on failure
  *

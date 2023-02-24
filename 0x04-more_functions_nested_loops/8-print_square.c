@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* print_squares - check the code
+* print_square - check the code
 *
 * @size: size of square
 *
 * Return: Always void.
 */
-void print_squares(int size)
+void print_square(int size)
 {
 int i = 0;
 int j = 0;

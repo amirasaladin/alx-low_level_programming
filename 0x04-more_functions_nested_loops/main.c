@@ -1,9 +1,9 @@
 #include "main.h"
+
 int main(void)
 {
-	    print_line(0);
-	        print_line(2);
-		    print_line(10);
-		        print_line(-4);
-			    return (0);
+	    print_square(2);
+	        print_square(10);
+		    print_square(0);
+		        return (0);
 }

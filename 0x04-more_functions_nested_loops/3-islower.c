@@ -8,9 +8,9 @@
  * @c: The character to print
 */
 
-int _isupper(int c)
+int _islower(int c)
 {
-	if (isupper(c))
+	if (islower(c))
 		return (1);
 	else
 		return (0);

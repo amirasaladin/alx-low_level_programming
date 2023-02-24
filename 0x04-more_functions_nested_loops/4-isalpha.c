@@ -1,16 +1,16 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - Checks if the character argument is a lowercase letter
+ * _isalpha - Check the code
  *
  * Return: 1 on success, 0 on failure
  *
  * @c: The character to print
 */
 
-int _isupper(int c)
+int _isalpha(int c)
 {
-	if (isupper(c))
+	if (isalpha(c))
 		return (1);
 	else
 		return (0);

@@ -13,7 +13,7 @@ int fdigit, ldigit;
 
 	while (i <= 10)
 	{
-		while (i <= 14)
+		while (j <= 14)
 		{
 			fdigit = j * 0.1;
 			ldigit = j % 10;

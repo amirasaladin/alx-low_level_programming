@@ -17,7 +17,7 @@ int fdigit, ldigit;
 		{
 			fdigit = j * 0.1;
 			ldigit = j % 10;
-			if (i > 9)
+			if (j > 9)
 			{
 				_putchar(fdigit + '0');
 			}
@@ -25,6 +25,7 @@ int fdigit, ldigit;
 			j++;
 		}
 		i++;
+		j = 0;
 		_putchar('\n');
 	}
 }

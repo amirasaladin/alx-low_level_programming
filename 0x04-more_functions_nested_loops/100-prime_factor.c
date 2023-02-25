@@ -29,7 +29,7 @@ void lprime_factor(void)
 			i++;
 		}
 	}
-	printf("%ld \n", n);
+	printf("%ld\n", n);
 }
 
 /**

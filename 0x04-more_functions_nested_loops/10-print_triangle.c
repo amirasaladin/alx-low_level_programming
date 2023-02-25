@@ -12,9 +12,9 @@ void print_triangle(int size)
 	int j = size - count;
 	int k = 0;
 
-	while (i >= 0)
+	if (size > 0)
 	{
-		if(size > 0)
+		while (i > 0)
 		{
 			while (j > 0)
 			{
@@ -29,10 +29,13 @@ void print_triangle(int size)
 				k++;
 			}
 			k = 0;
-		
+			_putchar('\n');
+			i--;
 		}
+	}
+	else
+	{
 		_putchar('\n');
-		i++;
 	}
 	return;
 

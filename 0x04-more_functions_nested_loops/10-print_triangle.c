@@ -12,23 +12,27 @@ void print_triangle(int size)
 	int j = size - count;
 	int k = 0;
 
-	while (i > 0)
+	while (i >= 0)
 	{
-		while (j > 0)
+		if(size > 0)
 		{
-			_putchar('.');
-			j--;
+			while (j > 0)
+			{
+				_putchar('.');
+				j--;
+			}
+			count++;
+			j = size - count;
+			while (k < count - 1)
+			{
+				_putchar('#');
+				k++;
+			}
+			k = 0;
+		
 		}
-		count++;
-		j = size - count;
-		while (k < count - 1)
-		{
-			_putchar('#');
-			k++;
-		}
-		k = 0;
 		_putchar('\n');
-		i--;
+		i++;
 	}
 	return;
 

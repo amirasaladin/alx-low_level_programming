@@ -18,7 +18,7 @@ void print_number(int n)
 	{
 		ldigit = n % 10;
 		print_number(n * 0.1);
-		putchar(ldigit + '0');
+		_putchar(ldigit + '0');
 	}
 }
 

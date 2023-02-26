@@ -16,6 +16,11 @@ void print_number(int n)
 	}
 	else
 	{
+		if (n < 0)
+		{
+			putchar('-');
+			n = abs(n);
+		}
 		ldigit = n % 10;
 		print_number(n * 0.1);
 		_putchar(ldigit + '0');

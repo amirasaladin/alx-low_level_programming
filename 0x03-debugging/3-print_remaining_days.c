@@ -42,4 +42,4 @@ void print_remaining_days(int month, int day, int year)
 	}
 }
 
-int main() { print_remaining_days(4, 91, 1997); return (0); }
+/*int main() { print_remaining_days(4, 91, 1997); return (0); }*/

@@ -36,4 +36,4 @@ void print_remaining_days(int month, int day, int year)
 	}
 }
 
-int main() { print_remaining_days(2, 60, 1991); return (0); }
+/*int main() { print_remaining_days(2, 60, 1991); return (0); }*/

@@ -1,12 +1,12 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 /**
  * _puts - Check code
  * @s: integer
  * Return: the return value data
 */
 
-void  _puts(char *s)
+void  _puts(char *str)
 {
-	_puts(s);
+	puts(str);
 }

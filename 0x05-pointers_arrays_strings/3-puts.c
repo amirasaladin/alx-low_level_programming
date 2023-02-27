@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _puts - Check code
- * @s: integer
+ * @str: integer
  * Return: the return value data
 */
 

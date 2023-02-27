@@ -18,7 +18,7 @@ void print_number(int n)
 	{
 		if (n < 0)
 		{
-			putchar('-');
+			_putchar('-');
 			n = abs(n);
 		}
 		ldigit = n % 10;

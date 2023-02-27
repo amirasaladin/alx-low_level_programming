@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * swap_int - Check code
  * @a: pointer
@@ -8,7 +9,7 @@
 
 void swap_int(int *a, int *b)
 {
-	int *c = *a;
+	int temp = *a;
 	*a = *b;
-	*b = *c;
+	*b = temp;
 }

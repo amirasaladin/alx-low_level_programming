@@ -16,8 +16,14 @@ void rev_string(char *s)
 	while (slen >= 0)
 	{
 		*(ns + i) = s[slen];
-		s[i] = ns[i];
 		slen--;
+		i++;
+	}
+	i = 0;
+	slen = strlen(ns) - 1;
+	while (i <= slen)
+	{
+		s[i] = ns[i];
 		i++;
 	}
 	_putchar('\n');

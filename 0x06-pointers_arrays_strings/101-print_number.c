@@ -11,7 +11,13 @@ void print_number(int n)
 {
 	int ldigit;
 
-	if (n == 0)
+	if (n < 0)
+	{
+		_putchar('-');
+		n = abs(n);
+		print_number(n);
+	}
+	else if (n == 0)
 	{
 		_putchar('0');
 		return;
@@ -23,11 +29,6 @@ void print_number(int n)
 	}
 	else
 	{
-		if (n < 0)
-		{
-			_putchar('-');
-			n = abs(n);
-		}
 		ldigit = n % 10;
 		print_number(n * 0.1);
 		_putchar(ldigit + '0');

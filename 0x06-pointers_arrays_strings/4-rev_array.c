@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
+/*#include "101-print_number.c"*/
 /**
  * reverse_array - Check code
  * @n: integer

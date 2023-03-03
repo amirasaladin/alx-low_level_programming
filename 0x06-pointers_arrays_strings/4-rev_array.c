@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <unistd.h>
-#include "101-print_number.c"
 /**
  * reverse_array - Check code
  * @n: integer
@@ -11,12 +9,16 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = n;
+	int temp;
+	int limit = n / 2;
+	int i = n - 1;
 	int j = 0;
 
-	while (i < n)
+	while (i > limit)
 	{
+		temp = a[j];
 		*(a + j) = a[i];
+		*(a + i) = temp;
 		j++;
 		i--;
 	}

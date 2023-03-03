@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * print_number - Check code
  * @n: integer
@@ -12,6 +13,12 @@ void print_number(int n)
 
 	if (n == 0)
 	{
+		_putchar('0');
+		return;
+	}
+	else if (n > 0 && n < 10)
+	{
+		_putchar(n + '0');
 		return;
 	}
 	else

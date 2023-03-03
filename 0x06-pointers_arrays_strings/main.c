@@ -19,5 +19,9 @@ int main(void)
     _putchar('\n');
 	print_number(-1);
 _putchar('\n');
+print_number(90);
+_putchar('\n');
+print_number(-90);
+_putchar('\n');
     return (0);
 }

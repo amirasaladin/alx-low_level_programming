@@ -1,13 +1,16 @@
 #include "main.h"
+#include <string.h>
 /**
- * name - Check code
- * @n: integer
+ * _print_rev_recursion - Check code
+ * @s: string
  * Return: the return value data
 */
 
-int name(int)
+void _print_rev_recursion(char *s)
 {
-	_putchar();
-	return;
-
+	if(*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }

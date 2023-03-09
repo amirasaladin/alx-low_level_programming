@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * strlen_recursion - Check code
+ * _strlen_recursion - Check code
  * @s: string
  * Return: the return value data
 */

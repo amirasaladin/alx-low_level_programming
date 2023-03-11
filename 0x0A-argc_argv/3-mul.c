@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int sum = 0;
+	long int mul = 1;
 
 	if (argc < 2)
 	{
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	for (i = 1; i < argc; i++)
-		sum += atoi(argv[i]);
-	printf("%d\n", sum);
+		mul *= atoi(argv[i]);
+	printf("%ld\n", mul);
 	return (0);
 }

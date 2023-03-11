@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int i;
 	int mul = 1;
 
-	if (argc < 2)
+	if (argc != 3)
 		return (printf("Error\n"), 1);
 	for (i = 1; i < argc; i++)
 		mul *= atoi(argv[i]);

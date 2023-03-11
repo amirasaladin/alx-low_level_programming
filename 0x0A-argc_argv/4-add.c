@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	long unsigned int j;
+	unsigned long int j;
 	int sum = 0;
 
 	for (i = 1; i < argc; i++)

@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 /**
  * min_change - check the code
  * @n: float
@@ -17,18 +16,18 @@ int min_change(float n)
 	for (i = 0; i < 5; i++)
 	{
 	if (n / change[i] != 0)
-        {
+	{
 		min += n / change[i];
 		temp = n / change[i];
-		left = ceil((n / change[i] - temp) * change[i]);
+		left = (n / change[i] - temp) * change[i];
 		n = left;
-        }
-        else
+	}
+	else
 	{
 		break;
 	}
 }
-	return min;
+	return (min);
 }
 /**
  * main - Check code

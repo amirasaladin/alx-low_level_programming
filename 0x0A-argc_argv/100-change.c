@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -38,8 +37,12 @@ int min_change(float n)
  * Return: the return value data
 */
 
-int main(int argc, int argv[])
+int main(int argc, char *argv[])
 {
-	printf("%d", min_change(atoi(argv[1])));
+	if (argc != 2)
+		return (printf("Error\n"), 1);
+	else if (atoi(argv[1]) < 0)
+		return (printf("0\n"), 0);
+	printf("%d\n", min_change(atoi(argv[1])));
 	return (0);
 }

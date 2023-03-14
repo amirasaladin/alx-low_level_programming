@@ -15,13 +15,13 @@ char *str_concat(char *s1, char *s2)
 	unsigned long int j;
 	char *s3;
 	
-	if (!s3)
-		return (NULL);
 	if (!s1)
 		s1 = "";
 	if (!s2)
 		s2 = "";
 	s3 = malloc(sizeof(char) * (strlen(s1) + strlen(s2) + 1));
+	if (!s3)
+		return (NULL);
 	for (i = 0; i < strlen(s1); i++)
 		s3[i] = s1[i];
 	for (j = 0; j < strlen(s2); j++)

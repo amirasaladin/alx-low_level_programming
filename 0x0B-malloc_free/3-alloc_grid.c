@@ -8,7 +8,7 @@
  * Return: the return value data
 */
 
- int **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **grid;
 	int i;

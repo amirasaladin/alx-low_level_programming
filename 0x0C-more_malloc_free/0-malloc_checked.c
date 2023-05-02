@@ -1,10 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * name - Check code
- * @n: integer
- * Return: the return value data
+ * malloc_checked - Check code
+ * @b: var you want to allocate memory for
+ * Return: the return value
 */
 
-int name(int)
+void *malloc_checked(unsigned int b)
 {
+	int *allocate;
+	allocate = malloc(sizeof(b));
+	while (allocate)
+	{
+		free(allocate);
+		return;
+	}
+	printf(98);
 }

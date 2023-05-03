@@ -2,15 +2,15 @@
 #define DOG
 
 /**
- * struct Dog - Short description
+ * struct dog - Short description
  * @name: First member
  * @age: Second member
  * @owner: Third member
  */
-struct Dog
+struct dog
 {
 char *name;
-float *age;
+float age;
 char *owner;
 };
 #endif

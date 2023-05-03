@@ -1,6 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stddef.h>
+#include <stdlib.h>
 /**
  * free_list - frees list
  * @head: pointer to the list

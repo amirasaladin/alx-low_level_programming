@@ -3,8 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * new_dog - function that prints a struct dog
- * @d: d
+ * new_dog - function that creates a new dog
  * @name: name
  * @age: age
  * @owner: owner

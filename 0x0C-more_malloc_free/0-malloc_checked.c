@@ -1,19 +1,19 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * malloc_checked - Check code
- * @b: var you want to allocate memory for
+ * @b: the ammount of ememory you want to allocate
  * Return: the return value
 */
 
 void *malloc_checked(unsigned int b)
 {
-	int *allocate;
-	allocate = malloc(sizeof(b));
-	while (allocate)
+	void *allocate;
+	allocate = malloc(b);
+	if (!allocate)
 	{
-		free(allocate);
-		return;
+		exit(98);
 	}
-	printf(98);
+	return (allocate);
 }

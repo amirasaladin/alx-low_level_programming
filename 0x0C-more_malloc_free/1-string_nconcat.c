@@ -32,14 +32,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!sent)
 		return (NULL);
 	/* concatinate sentences, s1 followed by the first n bytes of n2 */
-	for (i = 0; i < strlen_s1; i++)
+	for (i = 0; i <= strlen_s1; i++)
 		sent[i] = s1[i];
-	for (i = strlen_s1; i < strlen_s1 + n; i++)
+	for (i = strlen_s1; i <= strlen_s1 + n; i++)
 	{
 		sent[i] = s2[j];
 		j++;
 	}
 	/* NULL terminated */
-	sent[strlen_s1 + n + 1] = '\0';
+	sent[strlen_s1 + n] = '\0';
 	return (sent);
 }

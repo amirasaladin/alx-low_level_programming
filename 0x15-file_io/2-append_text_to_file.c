@@ -13,7 +13,7 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd, w_bytes;
 	int count = strlen(text_content);
-	
+
 	if (!filename)
 		return (-1);
 

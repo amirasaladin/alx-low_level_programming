@@ -25,7 +25,7 @@ int main(int ac, char **av)
 	r_bytes = read(file_from_d, buf, 1024);
 	if (r_bytes == -1)
 		dprintf(2, "Error: Can't read from file %s\n", av[1]), exit(98);
-	if (r_bytes > 0)
+	while (r_bytes > 0)
 	{
 		w_bytes = write(file_to_d, buf, r_bytes);
 		if (w_bytes == -1)
